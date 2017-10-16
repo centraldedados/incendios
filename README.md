@@ -1,4 +1,4 @@
-# Incêndios em Portugal 🔥👩‍🚒🚒
+# Incêndios em Portugal 🔥🚒👩‍🚒
 
 
 - dados históricos de incêndios florestais retirados do [ICFN - Instituto da conversão da Natureza e Florestas](http://www.icnf.pt/portal/florestas/dfci/inc/estat-sgif)
