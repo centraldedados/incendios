@@ -1,4 +1,4 @@
-REGISTO,DISTRITO,CONCELHO,FREGUESIA,DINICIO,HORAINICIO,DFIM,HORAFIM,REAC,POVOAMENTOS,MATOS,TOTAL,CAUSA
+codigo_sgif,distrito,concelho,freguesia,data_inicio,hora_inicio,data_fim,hora_fim,reacendimento,area_povoamento,area_mato,area_total,causa
 AT0001,Setúbal,Sines,Sines,1998/01/06,18:22:00,1998/01/06,19:15:00,,0.001,0,0.001,
 RO2142,Setúbal,Seixal,Arrentela,1998/01/06,14:39:00,1998/01/06,16:35:00,,0,0.0005,0.0005,
 DM01000624,Porto,Amarante,Aboadela,1998/01/10,14:30:00,1998/01/10,17:00:00,,0,4,4,

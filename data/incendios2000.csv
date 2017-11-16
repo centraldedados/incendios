@@ -1,4 +1,4 @@
-REGISTO,DISTRITO,CONCELHO,FREGUESIA,DINICIO,HORAINICIO,DFIM,HORAFIM,REAC,POVOAMENTOS,MATOS,TOTAL,CAUSA
+codigo_sgif,distrito,concelho,freguesia,data_inicio,hora_inicio,data_fim,hora_fim,reacendimento,area_povoamento,area_mato,area_total,causa
 BI07000003,Guarda,Manteigas,"Santa Maria",2000/01/01,00:10:00,2000/01/01,02:40:00,,0,1,1,
 BL05000001,Leiria,Pombal,Pombal,2000/01/01,00:25:00,2000/01/01,00:48:00,,0.01,0,0.01,
 RO01734,Leiria,Alcobaça,"São Martinho do Porto",2000/01/01,03:07:00,2000/01/01,04:00:00,,0,0.05,0.05,

@@ -1,4 +1,4 @@
-ANO,CONCELHO,FREGUESIA,DATAINICIO,HORAINICIO,MINUTOSINI,DATAFIM,HORAFIM,MINUTOSFIM,A_ARBORIZA,A_N_ARBORI,TOTAL,CAUSA
+ano,concelho,freguesia,data_inicio,hora_inicio,minutos_inicio,data_fim,hora_fim,minutos_fim,area_arborizada,area_nao_arborizada,area_total,causa
 1983,MONÇÃO,LUZIO,1983/12/30,19,45,1983/12/30,21,5,0.7,0,0.7,10
 1983,MONÇÃO,LUZIO,1983/12/29,19,45,1983/12/29,22,15,0.5,0,0.5,10
 1983,MONÇÃO,ANH@ES,1983/12/29,17,18,1983/12/29,17,42,0,0.1,0.1,10
