@@ -1,0 +1,232 @@
+{
+  "name": "incendios",
+  "title": "Incêndios",
+  "homepage": "https://github.com/centraldedados/incendios/",
+  "version": "1.0.0",
+  "description": "Registo histórico de incêndios de 1980 a 2015",
+  "license": "PDDL-1.0",
+  "sources": [
+    {
+      "name": "ICFN",
+      "web": "http://www.icnf.pt/portal/florestas/dfci/inc/estat-sgif"
+    }
+  ],
+  "resources": [
+    {
+      "name": "incendios1980",
+      "title": "Incêndios em 1980",
+      "path": "data/incendios1980.csv",
+      "format": "csv"
+    },
+    {
+      "name": "incendios1981",
+      "title": "Incêndios em 1981",
+      "path": "data/incendios1981.csv",
+      "format": "csv"
+    },
+    {
+      "name": "incendios1982",
+      "title": "Incêndios em 1982",
+      "path": "data/incendios1982.csv",
+      "format": "csv"
+    },
+    {
+      "name": "incendios1983",
+      "title": "Incêndios em 1983",
+      "path": "data/incendios1983.csv",
+      "format": "csv"
+    },
+    {
+      "name": "incendios1984",
+      "title": "Incêndios em 1984",
+      "path": "data/incendios1984.csv",
+      "format": "csv"
+    },
+    {
+      "name": "incendios1985",
+      "title": "Incêndios em 1985",
+      "path": "data/incendios1985.csv",
+      "format": "csv"
+    },
+    {
+      "name": "incendios1986",
+      "title": "Incêndios em 1986",
+      "path": "data/incendios1986.csv",
+      "format": "csv"
+    },
+    {
+      "name": "incendios1987",
+      "title": "Incêndios em 1987",
+      "path": "data/incendios1987.csv",
+      "format": "csv"
+    },
+    {
+      "name": "incendios1988",
+      "title": "Incêndios em 1988",
+      "path": "data/incendios1988.csv",
+      "format": "csv"
+    },
+    {
+      "name": "incendios1989",
+      "title": "Incêndios em 1989",
+      "path": "data/incendios1989.csv",
+      "format": "csv"
+    },
+    {
+      "name": "incendios1990",
+      "title": "Incêndios em 1990",
+      "path": "data/incendios1990.csv",
+      "format": "csv"
+    },
+    {
+      "name": "incendios1991",
+      "title": "Incêndios em 1991",
+      "path": "data/incendios1991.csv",
+      "format": "csv"
+    },
+    {
+      "name": "incendios1992",
+      "title": "Incêndios em 1992",
+      "path": "data/incendios1992.csv",
+      "format": "csv"
+    },
+    {
+      "name": "incendios1993",
+      "title": "Incêndios em 1993",
+      "path": "data/incendios1993.csv",
+      "format": "csv"
+    },
+    {
+      "name": "incendios1994",
+      "title": "Incêndios em 1994",
+      "path": "data/incendios1994.csv",
+      "format": "csv"
+    },
+    {
+      "name": "incendios1995",
+      "title": "Incêndios em 1995",
+      "path": "data/incendios1995.csv",
+      "format": "csv"
+    },
+    {
+      "name": "incendios1996",
+      "title": "Incêndios em 1996",
+      "path": "data/incendios1996.csv",
+      "format": "csv"
+    },
+    {
+      "name": "incendios1997",
+      "title": "Incêndios em 1997",
+      "path": "data/incendios1997.csv",
+      "format": "csv"
+    },
+    {
+      "name": "incendios1998",
+      "title": "Incêndios em 1998",
+      "path": "data/incendios1998.csv",
+      "format": "csv"
+    },
+    {
+      "name": "incendios1999",
+      "title": "Incêndios em 1999",
+      "path": "data/incendios1999.csv",
+      "format": "csv"
+    },
+    {
+      "name": "incendios2000",
+      "title": "Incêndios em 2000",
+      "path": "data/incendios2000.csv",
+      "format": "csv"
+    },
+    {
+      "name": "incendios2001",
+      "title": "Incêndios em 2001",
+      "path": "data/incendios2001.csv",
+      "format": "csv"
+    },
+    {
+      "name": "incendios2002",
+      "title": "Incêndios em 2002",
+      "path": "data/incendios2002.csv",
+      "format": "csv"
+    },
+    {
+      "name": "incendios2003",
+      "title": "Incêndios em 2003",
+      "path": "data/incendios2003.csv",
+      "format": "csv"
+    },
+    {
+      "name": "incendios2004",
+      "title": "Incêndios em 2004",
+      "path": "data/incendios2004.csv",
+      "format": "csv"
+    },
+    {
+      "name": "incendios2005",
+      "title": "Incêndios em 2005",
+      "path": "data/incendios2005.csv",
+      "format": "csv"
+    },
+    {
+      "name": "incendios2006",
+      "title": "Incêndios em 2006",
+      "path": "data/incendios2006.csv",
+      "format": "csv"
+    },
+    {
+      "name": "incendios2007",
+      "title": "Incêndios em 2007",
+      "path": "data/incendios2007.csv",
+      "format": "csv"
+    },
+    {
+      "name": "incendios2008",
+      "title": "Incêndios em 2008",
+      "path": "data/incendios2008.csv",
+      "format": "csv"
+    },
+    {
+      "name": "incendios2009",
+      "title": "Incêndios em 2009",
+      "path": "data/incendios2009.csv",
+      "format": "csv"
+    },
+    {
+      "name": "incendios2010",
+      "title": "Incêndios em 2010",
+      "path": "data/incendios2010.csv",
+      "format": "csv"
+    },
+    {
+      "name": "incendios2011",
+      "title": "Incêndios em 2011",
+      "path": "data/incendios2011.csv",
+      "format": "csv"
+    },
+    {
+      "name": "incendios2012",
+      "title": "Incêndios em 2012",
+      "path": "data/incendios2012.csv",
+      "format": "csv"
+    },
+    {
+      "name": "incendios2013",
+      "title": "Incêndios em 2013",
+      "path": "data/incendios2013.csv",
+      "format": "csv"
+    },
+    {
+      "name": "incendios2014",
+      "title": "Incêndios em 2014",
+      "path": "data/incendios2014.csv",
+      "format": "csv"
+    },
+    {
+      "name": "incendios2015",
+      "title": "Incêndios em 2015",
+      "path": "data/incendios2015.csv",
+      "format": "csv"
+    }
+  ]
+}
