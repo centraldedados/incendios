@@ -16,7 +16,12 @@ elencar aqui as alterações mais importantes:
 * Remover horas vazias dos campos de data
 * Unificar colunas de horas e minutos numa coluna de hora única
 * Eliminação de valores `NULL`
-* Consertar as terminações de linha e codificação UTF-8 
+* Consertar as terminações de linha e codificação UTF-8
+
+## Resources
+
+* [Analysis of fields](fields.md): result of analysis of fields
+* [analyse_fields.py](scripts/analyse_fields.py): script to analyse fields
 
 ## Referências
 
