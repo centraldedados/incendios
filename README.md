@@ -21,7 +21,22 @@ elencar aqui as alterações mais importantes:
 ## Resources
 
 * [Analysis of fields](fields.md): result of analysis of fields
-* [analyse_fields.py](scripts/analyse_fields.py): script to analyse fields
+* [csv_tool.py](scripts/csv_tool.py): script to analyse and merge collection of CSV files
+* [merged.csv](data/merged.csv): CSV merged with csv_tool.py
+
+### Merging CSV files
+
+In order to merge the CSV files, the year has to be derived from the filename
+(it is not included in all the CSV files). Luckily, we can do dirty things
+like dynamically include Python code on the command line:
+```
+$ scripts/csv_tool.py merge data/incendios*.csv -e "lambda f: dict(ano=re.match('.*incendios(\d{4}).csv', f.name)[1])" -o data/merged.csv
+```
+
+This code does a regex on the filename and extracts the year as `ano`:
+```python
+lambda f: dict(ano=re.match('.*incendios(\d{4}).csv', f.name)[1])
+```
 
 ## Referências
 
