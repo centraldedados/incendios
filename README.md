@@ -67,4 +67,4 @@ lambda f: dict(ano=re.match('.*incendios(\d{4}).csv', f.name)[1])
 - [Incêndios](http://incendios.pt/)
 - [EFFIS - European Forest Fire Information System](http://effis.jrc.ec.europa.eu/)
 - [PORDATA - Incêndios florestais e área ardida](https://www.pordata.pt/Portugal/Inc%C3%AAndios+florestais+e+%C3%A1rea+ardida+%E2%80%93+Continente-1192)
-- [Não aos fogos](http://naoaosfogos.pt/) / http://naoaosfogos.pt
+- [Não aos fogos](http://naoaosfogos.pt/)
