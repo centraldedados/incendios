@@ -26,14 +26,16 @@ elencar aqui as alterações mais importantes:
 
 ### Merging CSV files
 
-In order to merge the CSV files, the year has to be derived from the filename
-(it is not included in all the CSV files). Luckily, we can do dirty things
-like dynamically include Python code on the command line:
+Para juntar os vários CSV é preciso incluir o ano, que pode ser retirado do nome do ficheiro 
+(uma vez que não está incluído em todos os CSV). Como ninguém nos impede, podemos
+ser preguiçosos e incluir logo código Python directamente na linha de comandos:
+
 ```
 $ scripts/csv_tool.py merge data/incendios*.csv -e "lambda f: dict(ano=re.match('.*incendios(\d{4}).csv', f.name)[1])" -o data/merged.csv
 ```
 
-This code does a regex on the filename and extracts the year as `ano`:
+Este código usa uma expressão regular para extrair o `ano` do nome do ficheiro:
+
 ```python
 lambda f: dict(ano=re.match('.*incendios(\d{4}).csv', f.name)[1])
 ```
