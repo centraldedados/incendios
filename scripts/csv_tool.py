@@ -127,7 +127,7 @@ def merge(files, fieldnames, outfile, extra_fields=None):
             additional_fields = header.difference(fieldnames)
 
             logger.warning(
-                "Warninbg: %d unkown field(s) detected: %s",
+                "Warning: %d unkown field(s) detected: %s",
                 len(additional_fields), additional_fields
             )
 
